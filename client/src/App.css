@@ -1,0 +1,136 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+table {
+  border-spacing: 0;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+input, select {
+  padding: 5px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;  
+  width: 100%;
+  height: 100%;  
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;  
+  width: 400px; 
+  margin: 100px auto;
+}
+
+button {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #da1725; 
+  color: white;
+  border: none;
+  margin: 2px;  
+}
+
+button:hover {
+  background-color: #000000;  
+}
+
+.modal-content label,
+.modal-content select,
+.modal-content input, 
+.modal-content button {
+  display: block;
+  width: auto; /* Full width */
+  margin-bottom: 15px; /* Space between elements */
+  padding: 10px;
+}
+
+.modal-content label {
+  text-align: left;
+}
+
+th, td {  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+  table, 
+  .modal-content {
+    width: 100%;
+  }
+  
+  th, td {
+    white-space: normal; 
+    background-color: #f2f2f2;
+  }
+}
+
+@media (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.modal-content {
+  max-height: 500px; /* Maximum height */
+  overflow-y: auto; /* Add vertical scrollbar if needed */
+}
+
+/* Add horizontal scrollbar */
+.modal-content {
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 700px) {
+  .modal-content {
+    overflow-x: auto; 
+  }
+}
+
+.modal-content {
+  width: 400px; /* Default width */
+  max-width: 100%; /* Limit max width */
+  margin: 100px auto;
+}
+
+@media (max-width: 700px) {
+  .modal-content {
+    width: 100%; /* Full width on mobile */
+  }  
+}  
+
+.modal-content label,
+.modal-content input,  
+.modal-content select,
+.modal-content button {  
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+img{
+  float: right;
+  padding-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+
