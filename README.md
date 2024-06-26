@@ -2,9 +2,9 @@
 This project is a Proposal Management System developed using the MERN stack. The system aims to build a comprehensive dashboard that monitors the financials of projects and the status of proposals.
 
 ## 🛠️ Tech Stack
-Frontend: React.js ⚛️
-Backend: Node.js, Express.js 🟢
-Database: MongoDB 🍃
+- Frontend: React.js ⚛️
+- Backend: Node.js, Express.js 🟢
+- Database: MongoDB 🍃
 
 ## 📸 Screenshots
 
